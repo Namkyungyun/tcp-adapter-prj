@@ -1,0 +1,8 @@
+server:
+  port: 7777
+  host: 127.0.0.1
+  netty:
+    boss-count: 1
+    worker-count: 4
+    keep-alive: true
+    log-level: "LogLevel.INFO"
